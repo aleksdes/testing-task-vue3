@@ -1,0 +1,20 @@
+/* --------------- */
+/* - Text styles - */
+/* --------------- */
+@use "./mixins" as *;
+
+.font-inter {
+  font-family: $font-family-base;
+}
+
+.font-flame {
+  font-family: $font-family-flame;
+}
+
+.font-rotonda {
+  font-family: $font-family-rotonda;
+}
+
+.font-roboto {
+  font-family: $font-family-roboto;
+}

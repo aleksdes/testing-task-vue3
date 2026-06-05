@@ -1,0 +1,14 @@
+import { createApp } from 'vue'
+import App from './App.vue'
+import { usePiniaSetup } from './pinia-setup'
+import { usePrimeVueSetup } from './primevue-setup'
+import { useRouterSetup } from './router-setup'
+import '@/shared/lib/dayjs'
+import '@/shared/ui/theme/styles/index.scss'
+import '@/shared/ui/theme/styles/tailwind.css'
+
+export const application = createApp(App)
+
+useRouterSetup(application)
+usePrimeVueSetup(application)
+usePiniaSetup(application)
