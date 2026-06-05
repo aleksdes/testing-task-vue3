@@ -1,4 +1,4 @@
-# Burger King
+# Тестовое задание
 ---------
 Бэкофис
 
@@ -27,11 +27,6 @@
    ```
    pnpm dev
    ```
-
-4. docker
-  ```bash  
-  docker build . -f docker/Dockerfile -t front:test
-  ```
 
 ## Структура папок
 

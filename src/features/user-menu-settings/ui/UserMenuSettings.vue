@@ -19,7 +19,7 @@ const displayName = computed(() => {
 })
 
 // Логин пользователя
-const userDesc = computed(() => currentUser.value?.jobTitle || currentUser.value?.login || '')
+const userDesc = computed(() => currentUser.value?.fullName || currentUser.value?.login || '')
 </script>
 
 <template>

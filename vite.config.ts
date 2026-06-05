@@ -74,7 +74,7 @@ export default defineConfig(({ mode }) => {
 
       VitePWA({
         manifest: {
-          name: 'Burger King WFM',
+          name: 'Test Task',
           short_name: 'BK WFM',
           description: 'vite-project',
           theme_color: '#5F5980',

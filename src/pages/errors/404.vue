@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Button from 'primevue/button'
-import { OrdersAndDeliveriesRoute } from '@/app/router-setup/routes/user-scope-routes'
+import { HomeRoute } from '@/app/router-setup/routes/user-scope-routes'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import { OrdersAndDeliveriesRoute } from '@/app/router-setup/routes/user-scope-r
       Страница не найдена
     </h3>
 
-    <router-link :to="OrdersAndDeliveriesRoute.raw">
+    <router-link :to="HomeRoute.raw">
       <Button>
         На главную
       </Button>
